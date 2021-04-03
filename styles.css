@@ -1,0 +1,109 @@
+
+@font-face { 
+    font-family: 'Lexend Deca'; 
+    font-style: normal;  
+    font-weight: 400;
+    src: url('https://fonts.google.com/specimen/Lexend+Deca/LexendDeca-Regular.ttf') format("ttf");
+}
+@font-face { 
+    font-family: 'Big Shoulders Display'; 
+    font-style: normal;  
+    font-weight: 700;
+    src: url('https://fonts.google.com/specimen/Big+Shoulders+Display');
+}
+body {
+    background-color:hsl(0, 0%, 95%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+
+  }
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.maindiv{
+    margin-top: 100px;
+}
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    margin-left: 20%;
+    color: white;
+    float: left;
+    width: 15%;
+    padding:3%;
+    font-size: 16px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.suv{
+    background-color: hsl(184, 100%, 22%); 
+    color: white;
+    float: left;
+    width: 15%;
+    padding:3%;
+    font-size: 16px;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    float: left;
+    width: 15%;
+    margin-right: 15%;
+    padding:3%;
+    font-size: 16px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.lmse{
+    background-color:hsl(0, 0%, 95%);
+    border-radius: 20px;
+    border-color: hsl(0, 0%, 95%);
+    font-size: 14px;
+    width:120px;
+    height:40px;
+    color: hsl(31, 77%, 52%);
+}
+.lmsu{
+    background-color:hsl(0, 0%, 95%);
+    color:hsl(184, 100%, 22%);
+    border-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    font-size: 14px;
+    width:120px;
+    height:40px;
+}
+.lmsl{
+    background-color:hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    border-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    font-size: 14px;
+    width:120px;
+    height:40px;
+
+}
+@media screen and (max-width: 540px) {
+   
+    .sedan{
+        float: none;
+        width:60%;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+    }
+    .suv{
+        float: none;
+        width:60%;
+        margin-left: 20%;
+    }
+    .luxury{
+        float: none;
+        width:60%;
+        margin-left: 20%;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 0px;
+    }
+
+}
